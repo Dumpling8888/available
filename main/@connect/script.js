@@ -23872,83 +23872,83 @@ class EW {
     }
 }
 const mW = {
-        BACK: "Back",
-        CANCEL: "Cancel",
-        CLOSE: "Close",
-        CONFIRM: "Confirm",
-        CREATE: "Create",
-        DELETE: "Delete",
-        DONE: "Done",
-        EDIT: "Edit",
-        OK: "OK",
-        NEXT: "Next",
-        NO: "No",
-        PLAY: "Play",
-        PUBLISH: "Publish",
-        REMOVE: "Remove",
-        RESET: "Reset",
-        SUBMIT: "Submit",
-        TRY_AGAIN: "Try Again",
-        UNDO: "Undo",
-        YES: "Yes"
+        BACK: "Вернуться",
+        CANCEL: "Отменить",
+        CLOSE: "Закрыть",
+        CONFIRM: "Подтвердить",
+        CREATE: "Создать",
+        DELETE: "Удалить",
+        DONE: "Готово",
+        EDIT: "Редактировать",
+        OK: "Oкич",
+        NEXT: "Дальше",
+        NO: "Не",
+        PLAY: "СТРАДАТЬ",
+        PUBLISH: "Опубликовать",
+        REMOVE: "Удалить",
+        RESET: "Сбросить",
+        SUBMIT: "Подтвердить",
+        TRY_AGAIN: "Попробуй снова",
+        UNDO: "Отменить",
+        YES: "Да"
     },
     gW = {
         UGC: {
-            VISIBILITY_CONTROLLER_OFF: "prompts hidden on players’ devices",
-            VISIBILITY_CONTROLLER_ON: "prompts shown on players’ devices",
-            VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
-            VISIBILITY_SCREEN_ON: "prompts shown on game screen"
+            VISIBILITY_CONTROLLER_OFF: "подсказки скрыты на устройствах игроков",
+            VISIBILITY_CONTROLLER_ON: "подсказки отображаются на устройствах игроков",
+            VISIBILITY_SCREEN_OFF: "подсказки скрыты на игровом экране",
+            VISIBILITY_SCREEN_ON: "подсказки отображаются на игровом экране"
         }
     },
     _W = {
-        DISCONNECTED: "You have been disconnected.",
-        DRAWING_NOTHING: "You have to draw something!",
-        PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-        ROOM_DESTROYED: "Thanks for playing!",
-        ROOM_DISCONNECTED: "Disconnected",
-        TEXT_NAUGHTY: "I’m afraid you can’t write that. Please be respectful of other players.",
-        TEXT_NOTHING: "You can’t enter nothing!",
-        TITLE: "Error"
+        DISCONNECTED: "Вас отключило из игры",
+        DRAWING_NOTHING: "РИСУЙ БЛЯДААЗАКПУКЗПЩ",
+        PLAYER_KICKED: "Ты был кикнут из этой игры модератором",
+        ROOM_DESTROYED: "Больше не возращайся пжпжп((",
+        ROOM_DISCONNECTED: "Отключено",
+        TEXT_NAUGHTY: "Я босюь, что мы сейчас находимся в социальной сети \"Twitch\". Вы не можете такое писать....",
+        TEXT_NOTHING: "ТЫ НИЧЕГО НЕ МОЖЕШЬ ВВЕСТИ!",
+        TITLE: "Ошибка"
     },
-    TW = "LOADING",
+    TW = "Загрузка...",
     vW = {
-        JOINED_COUNT: "{count} of {maxPlayers} players joined",
-        PLAYERS_NEEDED: "1 player needed to start | {count} players needed to start",
-        WAITING_FOR_VIP: "Waiting for {name} to start the game",
-        WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-        WAITING_FOR_NEW_GAME: "Waiting for a new game to start",
-        GAME_STARTING: "Game is starting",
-        BUTTON_START: "Press to Start",
-        BUTTON_CANCEL: "Press to Cancel"
+        JOINED_COUNT: "{count} из {maxPlayers} присоединилось к этой игре",
+        PLAYERS_NEEDED: "НУ! Ещё 1 игрок нужен, чтобы начать игру (не надо) | Может оставишеся {count} игрока(ов) не будут присоединяться к этой игре, ок?",
+        WAITING_FOR_VIP: "{name} ПОЖАЛУЙСТА НЕ НАЧИНАЙ ЭТУ ИГРУ НЕЕЕЕЕТ((",
+        WAITING_FOR_GAMEPAD: "Ща игра начнётся, подождите",
+        WAITING_FOR_NEW_GAME: "Щас новая игра начнётся, подождите",
+        GAME_STARTING: "Игра, к сожалению, начинается...",
+        BUTTON_START: "Нажмите, чтобы начать",
+        BUTTON_CANCEL: "Нажмите, чтобы отменить"
     },
     xW = {
-        GALLERY_LINK: "Visit the Gallery",
-        NEW_GAME_STARTED: "A new game has started",
-        PLAY_AGAIN: "Play again?",
-        THANKS_FOR_PLAYING: "Thanks for playing!",
-        BUTTON_GO_TO_GAME: "Go to game",
-        BUTTON_GO_TO_JACKBOX: "Back to jackbox.tv",
-        BUTTON_SAME_PLAYERS: "Same players",
-        BUTTON_NEW_PLAYERS: "New players"
+        GALLERY_LINK: "Посмотреть приколы", 
+        NEW_GAME_STARTED: "Новая игра началась",
+        PLAY_AGAIN: "Начать заново?",
+        THANKS_FOR_PLAYING: "Пожалуйста, больше не возращайтесь((",
+        BUTTON_GO_TO_GAME: "Перейти к игре",
+        BUTTON_GO_TO_JACKBOX: "Вернуться в npnm.fun",
+        BUTTON_SAME_PLAYERS: "Те же игроки",
+        BUTTON_NEW_PLAYERS: "Новые игроки"
     },
     bW = {
-        AND: "AND",
-        OR: "OR"
+        AND: "И",
+        OR: "ИЛИ"
     },
     RW = {
-        BUTTON_SKIP: "Skip",
-        BUTTON_NEXT: "Next",
-        BUTTON_DONE: "Let’s Go!"
+        BUTTON_SKIP: "Пропустить",
+        BUTTON_NEXT: "Дальше",
+        BUTTON_DONE: "Гоу"
     },
     SW = {
-        NAME: "AUDIENCE"
+        NAME: "Зрители"
     },
     yW = {
         CART: {
-            CHECK_OUT: "Check out",
-            EMPTY: "Your cart is empty",
-            TITLE: "Shopping Cart",
-            TOTAL: "Total"
+            CHECK_OUT: "Проверить",
+            EMPTY: "Ваша корзина пустая. Стоп, как вы вообще можете тут что-то покупать?...",
+            TITLE: "Корзина",
+            TOTAL: "В общем"
         }
     },
     AW = {
@@ -35250,7 +35250,7 @@ const Kie = {
     Yie = {
         CAMERA: "[b]HEADS UP:[/b] We’re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
         STYLE: "[b]ЭЙ БРАТ![/b] Похоже, твой браузер немного устарел, и у тебя могут возникнуть некоторые проблемы с отображением этого мода йоу броооу",
-        TOS: "Нажимая ИГРАТЬ, вы принимаете [tos]Условиями соглашения(англ.)[/tos]. Доступен только ПНМ"
+        TOS: "Нажимая СТРАДАТЬ, вы принимаете [tos]Условиями соглашения(англ.)[/tos]. Доступен только ПНМ"
     },
     Jie = {
         BRANCH: Kie,
