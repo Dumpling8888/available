@@ -35163,94 +35163,94 @@ const Kie = {
         WAITING: "Waiting for Room"
     },
     kie = {
-        ACCEPT_ALL: "Got it!",
+        ACCEPT_ALL: "Okay, mate!",
         CONSENT_MODAL: {
             ARIA: "Cookie consent form"
         },
-        DESCRIPTION: "We use cookies to improve your game experience and analyze website traffic. Find out more in our [pp]Privacy Policy[/pp].",
-        REJECT_ALL: "Opt out"
+        DESCRIPTION: "Мы используем файлы куки для анализа посещаемости сайта и ваших самых секретных персональных данных, чтобы их слить в интернет на посмешище. Ладно, шучу. Мы не сливаем ваши данные. Если что, подробнее в нашей [pp]Политике конфиденциальности (англ.)[/pp]",
+        REJECT_ALL: "nuh uh"
     },
     Gie = {
-        UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
-        ROOM_IS_FULL: "The game is full",
-        ROOM_NOT_FOUND: "Room not found",
-        AUDIENCE_IS_FULL: "The audience is full",
-        UNABLE_TO_CONNECT: "Unable to connect to the Jackbox Games server. This is commonly caused by adblockers or privacy extensions.",
-        UNABLE_TO_PRELOAD: "Unable to preload this game bundle",
-        KICKED: "You cannot join because you have been kicked by a moderator",
-        REQUIRES_TWITCH_LOGIN: "Game requires Twitch login",
-        ROOM_IS_LOCKED: "Game is locked",
-        INCORRECT_PASSWORD: "Incorrect password",
-        GENERIC: "Error joining this game",
-        FILTER_NAME: "This game has profanity filters enabled. Please pick a different name."
+        UNSUPPORTED_BROWSER: "Ты не сможешь сыграть в ПНМ в твоём браузере. Нажмите '?' или ПОМОЩЬ, чтобы увидеть список поддерживаемых браузеров",
+        ROOM_IS_FULL: "Комната заполнена, skill issue",
+        ROOM_NOT_FOUND: "Комната не найдена",
+        AUDIENCE_IS_FULL: "Все места уже заняты, даже зрительские",
+        UNABLE_TO_CONNECT: "Unable to connect to the Jackbox Games server. This is commonly caused by adblockers or privacy extensions. Womp Womp",
+        UNABLE_TO_PRELOAD: "Unable to preload this game bundle. Womp Womp",
+        KICKED: "А всёёёё, тебя кикнул модератор, ты не сможешь снова зайти в игру",
+        REQUIRES_TWITCH_LOGIN: "Я требую авторизацию через Twitch. Повинуйся",
+        ROOM_IS_LOCKED: "Комната закрыта",
+        INCORRECT_PASSWORD: "Невероный пароль, пытайся лучше",
+        GENERIC: "Э... Какая-то ошибка присоединения к этой игре, я хз что это",
+        FILTER_NAME: "Короче, какой-то [хороший человек] включил \"Семейный режим\", так что придумай ник БЕЗ матов, ок?"
     },
     Vie = {
-        NAME: "NAME",
-        NAME_PLACEHOLDER: "ENTER YOUR NAME",
-        PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
-        PASSWORD_REQUIRED_TITLE: "Password required",
-        PASSWORD_REQUIRED_BODY: "Please enter the password or join as an audience member",
-        PASSWORD_JOIN_AS_PLAYER: "Join as Player",
-        PASSWORD_JOIN_AS_AUDIENCE: "Join Audience",
-        ROOM_CODE: "ROOM CODE",
-        ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
+        NAME: "Имя",
+        NAME_PLACEHOLDER: "Пожалуйста, назовитесь",
+        PASSWORD_PLACEHOLDER: "Введите 5-значный пароль",
+        PASSWORD_REQUIRED_TITLE: "Нужен пароль (1234)",
+        PASSWORD_REQUIRED_BODY: "Введите пароль или присоединитесь как зритель",
+        PASSWORD_JOIN_AS_PLAYER: "Присоедениться как игрок",
+        PASSWORD_JOIN_AS_AUDIENCE: "Присоедениться как зритель",
+        ROOM_CODE: "Код игры",
+        ROOM_CODE_PLACEHOLDER: "Введите 4-значный пароль"
     },
-    Fie = "Link to Jackbox Games Homepage",
+    Fie = "Ссылка на домашнюю страницу Jackbox Gayms",
     Hie = {
-        APPEARANCE: "APPEARANCE",
-        DARK: "dark",
-        HELP: "HELP",
+        APPEARANCE: "Тема",
+        DARK: "тёмная",
+        HELP: "Помощь",
         TWITCH: "TWITCH",
-        LIGHT: "light",
-        LOGOUT: "LOGOUT",
-        MERCH: "MERCH",
-        PAST_GAMES: "PAST GAMES",
-        MAILING_LIST: "MAILING LIST",
-        MODERATOR: "MODERATOR"
+        LIGHT: "светлая",
+        LOGOUT: "Выйти",
+        MERCH: "Мерч",
+        PAST_GAMES: "Прошлые игры",
+        MAILING_LIST: "Рассылка",
+        MODERATOR: "Модерация"
     },
     Wie = {
         CALL_TO_ACTION: {
-            SHOP: "VIEW GAME & SHOP",
-            VIEW: "VIEW THIS GAME"
+            SHOP: "Посмотреть эту игру & магазин",
+            VIEW: "Посмотреть эту игру"
         },
-        NEW: "NEW",
-        PLAYED_ON: "PLAYED ON",
+        NEW: "Новое",
+        PLAYED_ON: "Сыграно",
         REMOVE: {
-            CONFIRM: "Are you sure?",
-            DESCRIPTION: `This will permanently remove this game
-from your past games list.`,
-            MANAGE: "Remove Game?",
-            TITLE: "Are You Sure?"
+            CONFIRM: "Уверен?",
+            DESCRIPTION: `Это приведет к необратимому удалению этой игры
+из вашего списка прошлых игр.. ТЫ ТОЧНО УВЕРЕН?!`,
+            MANAGE: "Удалить игру?",
+            TITLE: "ТЫ. УВЕРЕН?!?"
         }
     },
     Xie = {
-        EMPTY: "No Past Games Yet",
-        MANAGE: "MANAGE",
-        TITLE: "YOUR PAST GAMES"
+        EMPTY: "Никаких недавних игр",
+        MANAGE: "Управление",
+        TITLE: "Ваши прошлые игры"
     },
     jie = {
-        TITLE: "RECENT GAMES",
+        TITLE: "Недавние игры",
         VIEW_ALL: {
-            BUTTON: "VIEW ALL",
-            LINK: "VIEW ALL PAST GAMES"
+            BUTTON: "Посмотреть все",
+            LINK: "Посмотреть все прошлые игры"
         }
     },
     zie = {
-        GAME_FULL: "Game is full",
-        GAME_STARTED: "Game has started",
-        ROOM_NOT_FOUND: "Room not found"
+        GAME_FULL: "Игра заполнена",
+        GAME_STARTED: "АЛЁУ! Игра началась",
+        ROOM_NOT_FOUND: "Комната не найдена, big whoop"
     },
     qie = {
-        GAME_FULL: "GAME IS FULL",
-        GAME_STARTED: "GAME HAS STARTED",
-        JOIN_AUDIENCE: "JOIN AUDIENCE",
-        RECONNECT: "RECONNECT",
-        TWITCH_LOGIN: "LOGIN WITH TWITCH"
+        GAME_FULL: "Игра заполнена",
+        GAME_STARTED: "АЛЁУ! Игра началась",
+        JOIN_AUDIENCE: "Присоединиться к аудиенции",
+        RECONNECT: "Пересоединяем",
+        TWITCH_LOGIN: "Залагиниться с твичом"
     },
     Yie = {
         CAMERA: "[b]HEADS UP:[/b] We’re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
-        STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-        TOS: "By clicking {submit}, you agree to our [tos]Terms of Service[/tos]"
+        STYLE: "[b]ЭЙ БРАТ![/b] Похоже, твой браузер немного устарел, и у тебя могут возникнуть некоторые проблемы с отображением этого мода йоу броооу",
+        TOS: "Нажимая ИГРАТЬ, вы принимаете [tos]Условиями соглашения(англ.)[/tos]. Доступен только ПНМ"
     },
     Jie = {
         BRANCH: Kie,
