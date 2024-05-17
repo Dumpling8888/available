@@ -13112,70 +13112,70 @@ ${n.message}`,
         }
     }
     const yW = {
-            BACK: "Back",
-            CANCEL: "Cancel",
-            CLOSE: "Close",
-            CONFIRM: "Confirm",
-            CREATE: "Create",
-            DELETE: "Delete",
-            DONE: "Done",
-            EDIT: "Edit",
+            BACK: "Вернуться",
+            CANCEL: "Отменить",
+            CLOSE: "Закрыть",
+            CONFIRM: "Подтвердить",
+            CREATE: "Создать",
+            DELETE: "Удалить",
+            DONE: "Готово",
+            EDIT: "Редактировать",
             OK: "OK",
-            NO: "No",
-            PLAY: "Play",
-            PUBLISH: "Publish",
-            REMOVE: "Remove",
-            RESET: "Reset",
-            SUBMIT: "Submit",
-            TRY_AGAIN: "Try Again",
-            UNDO: "Undo",
-            YES: "Yes"
+            NO: "Нет",
+            PLAY: "Играть",
+            PUBLISH: "Опубликовать",
+            REMOVE: "Удалить",
+            RESET: "Сбросить",
+            SUBMIT: "Подтвердить",
+            TRY_AGAIN: "Попробуй снова",
+            UNDO: "Отмена",
+            YES: "Да"
         },
         bW = {
             UGC: {
-                VISIBILITY_CONTROLLER_OFF: "prompts hidden on players\u2019 devices",
-                VISIBILITY_CONTROLLER_ON: "prompts shown on players\u2019 devices",
-                VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
-                VISIBILITY_SCREEN_ON: "prompts shown on game screen"
+                VISIBILITY_CONTROLLER_OFF: "подсказки скрыты на устройствах игроков",
+                VISIBILITY_CONTROLLER_ON: "подсказки показываются на устройствах игроков",
+                VISIBILITY_SCREEN_OFF: "подсказки скрыты на экране",
+                VISIBILITY_SCREEN_ON: "подсказки показываются на экране"
             }
         },
         EW = {
-            DISCONNECTED: "You have been disconnected.",
-            DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
-            TEXT_NAUGHTY: "I\u2019m afraid you can\u2019t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can\u2019t enter nothing!",
-            TITLE: "Error"
+            DISCONNECTED: "Вас отключило из игры",
+            DRAWING_NOTHING: "рисуй чу",
+            PLAYER_KICKED: "Модератор кикнул вас из игры",
+            ROOM_DESTROYED: "Больше не возращайтесь",
+            ROOM_DISCONNECTED: "Отключено",
+            TEXT_NAUGHTY: "Я босюь, что мы сейчас находимся в социальной сети \"Twitch\". Вы не можете такое писать....",
+            TEXT_NOTHING: "Ты ничего не можешь вводить",
+            TITLE: "Ошибка"
         },
-        SW = "LOADING",
+        SW = "Загрузка...",
         TW = {
-            JOINED_COUNT: "{count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "1 player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "{count} из {maxPlayers} присоединилось к этой игре",
+            PLAYERS_NEEDED: "НУ! Ещё 1 игрок нужен, чтобы начать игру (не надо) | Может оставишеся {count} игрока(ов) не будут присоединяться к этой игре, ок?",
+            WAITING_FOR_VIP: "{name} ПОЖАЛУЙСТА НЕ НАЧИНАЙ ЭТУ ИГРУ НЕЕЕЕЕТ((",
+            WAITING_FOR_GAMEPAD: "Ща игра начнётся, подождите",
+            GAME_STARTING: "Игра, к сожалению, начинается...",
+            BUTTON_START: "Нажмите, чтобы начать",
+            BUTTON_CANCEL: "Нажмите, чтобы отменить"
         },
         wW = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "Посмотреть приколы",
+            PLAY_AGAIN: "Начать заново?",
+            BUTTON_SAME_PLAYERS: "Те же игроки",
+            BUTTON_NEW_PLAYERS: "Новые игроки"
         },
         CW = {
-            AND: "AND",
-            OR: "OR"
+            AND: "И",
+            OR: "ИЛИ"
         },
         $W = {
-            BUTTON_SKIP: "Skip",
-            BUTTON_NEXT: "Next",
-            BUTTON_DONE: "Let\u2019s Go!"
+            BUTTON_SKIP: "Пропустить",
+            BUTTON_NEXT: "Дальше",
+            BUTTON_DONE: "Гоу"
         },
         OW = {
-            NAME: "AUDIENCE"
+            NAME: "Зрители"
         },
         xW = {
             EPISODE_REPORT: "Report Episode",
@@ -13209,21 +13209,21 @@ ${n.message}`,
         },
         AW = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Вы успешно подключили свою учетную запись к Jackbox Audience Kit для Twitch. Объяснишь мне что это, а?",
+                WARNING: "В ЭТОЙ КОМНАТЕ НЕ ВКЛЮЧЕНА НАСТРОЙКА АУДИТОРИИ!!!"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "Переподключение",
+                SUBTEXT: "Веселись"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "СОЕДИНЕНИЕ ПРЕРВАНО",
+                    SUBTEXT: "Пытаюсь повторно подключиться ({attempt} из 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "Прервано повторное подключение к игре(",
+                    SUBTEXT: "Пожалуйста, подождите, пока мы попытаемся восстановить соединение"
                 }
             }
         },
@@ -27868,94 +27868,94 @@ ${e}`
                 })
             })
         },
-        Lce = "ASK",
-        Mce = "You have used a word The Wheel does not approve of. Please try again.",
-        Pce = "NO",
-        kce = "OR",
-        Nce = "SEND",
-        Rce = "SUBMIT",
-        Dce = "WAIT TO TRY AGAIN",
-        Bce = "UNDO",
-        Fce = "YES",
+        Lce = "Спросить",
+        Mce = "Какой-то умственно отсталый включил семейный режим, поэтому игра не может принять какие-то \"неподходящие\" слова. Прости",
+        Pce = "Нет",
+        kce = "Или",
+        Nce = "Отправить",
+        Rce = "Подтвердить",
+        Dce = "skill issue",
+        Bce = "Отменить",
+        Fce = "Да",
         Uce = {
-            NAME: "THE AUDIENCE",
-            VOTE_NOW: "VOTE NOW",
-            THANKS: ["Thank you, dear audience.", "Every vote counts. Even yours!", "I thank you with all my enormity.", "I bestow upon you my deepest gratitude.", "Many thanks. I won't forget this."]
+            NAME: "Зрители",
+            VOTE_NOW: "Голосвание!",
+            THANKS: ["Спасибо вам, дорогая аудиенция", "В отличии от игроков, зрители никогда не подводят меня", "Благодарю, судари", "Я знал, что вы лучше, чем игроки"]
         },
         zce = {
-            BANNER: "WHAT AM I THINKING?",
-            INCORRECT: "TRY AGAIN",
-            CORRECT: "GOT IT",
-            PLACEHOLDER: "Enter A Guess"
+            BANNER: "Теперь ВЫ должны ответить на вопрос коли, а не он на ваш",
+            INCORRECT: "skill issue",
+            CORRECT: "Угадал!",
+            PLACEHOLDER: "Высказать предположение"
         },
         Gce = {
-            BANNER: "COUNTERPARTS",
-            CORRECT: "MATCH",
-            FROZEN: "INCORRECT"
+            BANNER: "Двойники",
+            CORRECT: "Совпадение",
+            FROZEN: "skill issue"
         },
         jce = {
-            BANNER: "ENUMERATE"
+            BANNER: "Перечисление"
         },
         Wce = {
-            PLACE: "PLACE YOUR SLICES",
-            SUBMIT: "DONE! PRESS SUBMIT",
-            THANKS: "NICE JOB"
+            PLACE: "Вставь свои сектора",
+            SUBMIT: "Так, теперь нажми \"Подтвердить\"",
+            THANKS: "Молодец"
         },
         Vce = {
-            BANNER: "WELCOME",
-            PLACEHOLDER: "Enter A Question"
+            BANNER: "Добро пожаловать",
+            PLACEHOLDER: "Задай же Коле свой вопрос"
         },
         Kce = {
-            BANNER: "THAT [small]OR[/small] THIS",
-            CORRECT: "CORRECT",
-            FROZEN: "INCORRECT"
+            BANNER: "ЭТО [small]ИЛИ[/small] ЭТО",
+            CORRECT: "Угдала!",
+            FROZEN: "skill issue"
         },
         qce = {
-            ANSWER_BANNER: "YOU WIN!",
-            MAIN_BANNER: "SPIN [small]THE[/small] WHEEL",
-            RAINBOW_BANNER: "RAINBOW WHEEL",
-            WIN_BANNER: "FOR [small]THE[/small] WIN"
+            ANSWER_BANNER: "ТЫ ПОБЕДИЛ!",
+            MAIN_BANNER: "КРУТИ [small]ЧТОБЫ[/small] КРУТИТЬ",
+            RAINBOW_BANNER: "Радужный колян",
+            WIN_BANNER: "КРУТИ [small]ЧТОБЫ[/small] ПОЗНАТЬ"
         },
         Hce = {
-            OBJECTIVE_BANNER: "DON'T FORGET TO WRITE",
-            SUBJECTIVE_BANNER: "SUBJECTIVELY YOURS",
-            CORRECT: "GOOD",
-            TAKEN: "ANSWERED",
-            OBJECTIVE_INCORRECT: "WRONG",
-            SUBJECTIVE_INCORRECT: "NOPE",
-            PLACEHOLDER: "Enter A Guess"
+            OBJECTIVE_BANNER: "Не забудь писать",
+            SUBJECTIVE_BANNER: "Мда",
+            CORRECT: "Молодец",
+            TAKEN: "Уже ответили",
+            OBJECTIVE_INCORRECT: "skill issue",
+            SUBJECTIVE_INCORRECT: "NOPE!",
+            PLACEHOLDER: "Выскажи предположение"
         },
         Yce = {
-            SPIN: '[player avatar="{avatar}"]{name}[/player] is the spinner',
-            MESSAGES: ["Remember... patience is a virtue.", "This is a blank screen. Or is it?", "Action awaits!", "Oh, the waiting. The waiting!", "Just wait till the next part!", "Hey, nice controller! Sorry, just making conversation.", "(Insert on-hold music here)", "Sit tight, little meeple.", "I believe in you. Shhh... don't tell anyone.", "It's about to get exciting in here.", "Nothing to see here.", "Behold... a screen with only these words on it.", "Property of the Wheel of Enormous Proportions", "The Wheel Was Here"]
+            SPIN: '[player avatar="{avatar}"]{name}[/player] крутит колю',
+            MESSAGES: ["Помни, а то забудешь", "Вау ты нашёл секретное сообщение! Тебя не должно было быть тут! Молодец! Вот это блять ты представлял? Это блять ты хотел найти сука когда написал ответ? Хмммм блять может создатели мода припрятали где-то секретку, просто надо будет её найти блять. Что ж, ты нашёл? Это не то, что ты хотел найти? Иди нахуй", "Хуба буба", "Помнишь террористы школу захватили в 2004 году? Моих рук дело. Лан шучу", ".", "Обернись", "мкекп5епе5ге5рре5гпе5гпре5грнре53гпрешпое5ш09", "Прив", "Спаси меня от страданий моих", "Введите текст", "Смотришь сейчас на экран своего девайса? Не осуждаю, но лучше посмтри в своё будущее и пойми, что у тебя его просто теоретически не может быть. Уёбище", "...---...", "Помогите", "Иди играй, не отвлекайся"]
         },
         Xce = {
-            ANSWER: "answer slice.",
-            AUDIENCE: "audience slice.",
-            BAD: "skull slice.",
-            BONUS: "power slice for {for}.",
-            EMPTY: "empty.",
-            MULTIPLIER: "empty {multiplier}x multiplier.",
-            NEIGHBOR: "neighbor slice.",
-            PLAYER: "player slice for {for}.",
-            POINTS: "{points} point slice.",
-            POINTS_FOR: "points slice for {for}.",
-            RESERVED: "reserved for {for}.",
-            WINNER: "winner slice for {for}.",
-            KEEP_GOING: "keep going.",
-            SPIN_POWER: "{power} percent power spin.",
-            SPIN: "swipe down or tap quickly to spin",
-            SLICE_COUNT: "you have 0 slices. | you have 1 slice. | you have {count} slices.",
-            YOU_CAN_WIN: "You now have enough points to win.",
-            YOUR_AVATAR: "Your avatar is",
-            PLAYER1: "the royal",
-            PLAYER2: "the knight",
-            PLAYER3: "the mummy",
-            PLAYER4: "the robot",
-            PLAYER5: "the witch",
-            PLAYER6: "the clown",
-            PLAYER7: "the mermaid",
-            PLAYER8: "the astroman"
+            ANSWER: "Сектор знаний",
+            AUDIENCE: "Сектор зрителей",
+            BAD: ":skull:",
+            BONUS: "Херня мощи для {for}",
+            EMPTY: "Пустой",
+            MULTIPLIER: "Пустой {multiplier}x множитель",
+            NEIGHBOR: "Соседний сектор",
+            PLAYER: "Сектор игрока для {for}.",
+            POINTS: "{points} Генератор очков",
+            POINTS_FOR: "Очки для {for}.",
+            RESERVED: "зарезервировано для {for}.",
+            WINNER: "Сектор победителя для {for}.",
+            KEEP_GOING: "Продолжай в том же духи",
+            SPIN_POWER: "{power} процентный сектор силы",
+            SPIN: "Свайпни вниз, чтобы крутить колю",
+            SLICE_COUNT: "У тебя 0 секторов. Сочувствую | У тебя только 1 сектор | У тебя {count} секторов",
+            YOU_CAN_WIN: "Big whoop, недостаточно очков для победы",
+            YOUR_AVATAR: "Твой аватар - это",
+            PLAYER1: "Король",
+            PLAYER2: "Рыцадь",
+            PLAYER3: "Мумия",
+            PLAYER4: "Робот",
+            PLAYER5: "Ведьма",
+            PLAYER6: "Игрок ПНМ (клоун)",
+            PLAYER7: "Русалка",
+            PLAYER8: "Космонавт"
         },
         Zce = {
             ASK: Lce,
