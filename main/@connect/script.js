@@ -16028,10 +16028,10 @@ const Fa = class Fa {
         return this.htmlEscape(r).trim()
     }
     static sanitizeName(e) {
-        return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
+        return e
     }
     static sanitizeInput(e) {
-        return e = e.replace("…", "..."), e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+        return e
     }
     static sanitizeEmoji(e) {
         return e.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -23904,7 +23904,7 @@ const mW = {
         DISCONNECTED: "Вас отключило из игры",
         DRAWING_NOTHING: "РИСУЙ БЛЯДААЗАКПУКЗПЩ",
         PLAYER_KICKED: "Ты был кикнут из этой игры модератором",
-        ROOM_DESTROYED: "Больше не возращайся пжпжп((",
+        ROOM_DESTROYED: "Больше сюда не возращайся пжпжп((",
         ROOM_DISCONNECTED: "Отключено",
         TEXT_NAUGHTY: "Я босюь, что мы сейчас находимся в социальной сети \"Twitch\". Вы не можете такое писать....",
         TEXT_NOTHING: "ТЫ НИЧЕГО НЕ МОЖЕШЬ ВВЕСТИ!",
