@@ -13151,8 +13151,8 @@ ${n.message}`,
         },
         SW = "Загрузка...",
         TW = {
-            JOINED_COUNT: "{count} из {maxPlayers} игроков присоединилось к этой игре",
-            PLAYERS_NEEDED: "НУ! Ещё 1 игрок нужен, чтобы начать игру (не надо) | Может оставишеся {count} человека не будут присоединяться к этой игре, ок?",
+            JOINED_COUNT: "{count} из {maxPlayers} присоединилось к этой игре",
+            PLAYERS_NEEDED: "НУ! Ещё 1 игрок нужен, чтобы начать игру (не надо) | Может оставишеся {count} игрока(ов) не будут присоединяться к этой игре, ок?",
             WAITING_FOR_VIP: "{name} ПОЖАЛУЙСТА НЕ НАЧИНАЙ ЭТУ ИГРУ НЕЕЕЕЕТ((",
             WAITING_FOR_GAMEPAD: "Ща игра начнётся, подождите",
             GAME_STARTING: "Игра, к сожалению, начинается...",
@@ -27869,7 +27869,7 @@ ${e}`
             })
         },
         Lce = "Спросить",
-        Mce = "Какой-то умственно отсталый включил семейный режим, поэтому игра не может принять какие-то неподходящие слова. Прости",
+        Mce = "Какой-то умственно отсталый включил семейный режим, поэтому игра не может принять какие-то \"неподходящие\" слова. Прости",
         Pce = "Нет",
         kce = "Или",
         Nce = "Отправить",
@@ -27883,7 +27883,7 @@ ${e}`
             THANKS: ["Спасибо вам, дорогая аудиенция", "В отличии от игроков, зрители никогда не подводят меня", "Благодарю, судари", "Я знал, что вы лучше, чем игроки"]
         },
         zce = {
-            BANNER: "Теперь ВЫ должны ответить на вопрос коли, а не он на ваш",
+            BANNER: "О чём думает коля?",
             INCORRECT: "skill issue",
             CORRECT: "Угадал!",
             PLACEHOLDER: "Высказать предположение"
@@ -27898,7 +27898,7 @@ ${e}`
         },
         Wce = {
             PLACE: "Вставь свои сектора",
-            SUBMIT: "Так, теперь нажми Подтвердить",
+            SUBMIT: "Так, теперь нажми \"Подтвердить\"",
             THANKS: "Молодец"
         },
         Vce = {
@@ -27907,18 +27907,18 @@ ${e}`
         },
         Kce = {
             BANNER: "ЭТО [small]ИЛИ[/small] ЭТО",
-            CORRECT: "Угадал!",
+            CORRECT: "Угдала!",
             FROZEN: "skill issue"
         },
         qce = {
             ANSWER_BANNER: "ТЫ ПОБЕДИЛ!",
-            MAIN_BANNER: "КРУТИ [small]ЧТОБЫ[/small] КРУТИТЬ",
+            MAIN_BANNER: "СВАЙПНИ ВНИЗ",
             RAINBOW_BANNER: "Радужный колян",
-            WIN_BANNER: "КРУТИ [small]ЧТОБЫ[/small] ПОЗНАТЬ"
+            WIN_BANNER: "СВАЙПНИ ВНИЗ"
         },
         Hce = {
-            OBJECTIVE_BANNER: "Не забудь писать",
-            SUBJECTIVE_BANNER: "М-да",
+            OBJECTIVE_BANNER: "Не забудь писать ответы",
+            SUBJECTIVE_BANNER: "Не забудь писать ответы",
             CORRECT: "Молодец",
             TAKEN: "Уже ответили",
             OBJECTIVE_INCORRECT: "skill issue",
@@ -27930,32 +27930,32 @@ ${e}`
             MESSAGES: ["Помни, а то забудешь", "Вау ты нашёл секретное сообщение! Тебя не должно было быть тут! Молодец! Вот это блять ты представлял? Это блять ты хотел найти сука когда написал ответ? Хмммм блять может создатели мода припрятали где-то секретку, просто надо будет её найти блять. Что ж, ты нашёл? Это не то, что ты хотел найти? Иди нахуй", "Хуба буба", "Помнишь террористы школу захватили в 2004 году? Моих рук дело. Лан шучу", ".", "Обернись", "мкекп5епе5ге5рре5гпе5гпре5грнре53гпрешпое5ш09", "Прив", "Спаси меня от страданий моих", "Введите текст", "Смотришь сейчас на экран своего девайса? Не осуждаю, но лучше посмтри в своё будущее и пойми, что у тебя его просто теоретически не может быть. Уёбище", "...---...", "Помогите", "Иди играй, не отвлекайся"]
         },
         Xce = {
-            ANSWER: "answer slice.",
-            AUDIENCE: "audience slice.",
-            BAD: "skull slice.",
-            BONUS: "power slice for {for}.",
-            EMPTY: "empty.",
-            MULTIPLIER: "empty {multiplier}x multiplier.",
-            NEIGHBOR: "neighbor slice.",
-            PLAYER: "player slice for {for}.",
-            POINTS: "{points} point slice.",
-            POINTS_FOR: "points slice for {for}.",
-            RESERVED: "reserved for {for}.",
-            WINNER: "winner slice for {for}.",
-            KEEP_GOING: "keep going.",
-            SPIN_POWER: "{power} percent power spin.",
-            SPIN: "swipe down or tap quickly to spin",
-            SLICE_COUNT: "you have 0 slices. | you have 1 slice. | you have {count} slices.",
-            YOU_CAN_WIN: "You now have enough points to win.",
-            YOUR_AVATAR: "Your avatar is",
-            PLAYER1: "the royal",
-            PLAYER2: "the knight",
-            PLAYER3: "the mummy",
-            PLAYER4: "the robot",
-            PLAYER5: "the witch",
-            PLAYER6: "the clown",
-            PLAYER7: "the mermaid",
-            PLAYER8: "the astroman"
+            ANSWER: "Сектор знаний",
+            AUDIENCE: "Сектор зрителей",
+            BAD: ":skull:",
+            BONUS: "Херня мощи для {for}",
+            EMPTY: "Пустой",
+            MULTIPLIER: "Пустой {multiplier}x множитель",
+            NEIGHBOR: "Соседний сектор",
+            PLAYER: "Сектор игрока для {for}.",
+            POINTS: "{points} Генератор очков",
+            POINTS_FOR: "Очки для {for}.",
+            RESERVED: "зарезервировано для {for}.",
+            WINNER: "Сектор победителя для {for}.",
+            KEEP_GOING: "Продолжай в том же духи",
+            SPIN_POWER: "{power} процентный сектор силы",
+            SPIN: "Свайпни вниз, чтобы крутить колю",
+            SLICE_COUNT: "У тебя 0 секторов. Сочувствую | У тебя только 1 сектор | У тебя {count} секторов",
+            YOU_CAN_WIN: "Big whoop, недостаточно очков для победы",
+            YOUR_AVATAR: "Твой аватар - это",
+            PLAYER1: "Король",
+            PLAYER2: "Рыцадь",
+            PLAYER3: "Мумия",
+            PLAYER4: "Робот",
+            PLAYER5: "Ведьма",
+            PLAYER6: "Игрок ПНМ (клоун)",
+            PLAYER7: "Русалка",
+            PLAYER8: "Космонавт"
         },
         Zce = {
             ASK: Lce,
