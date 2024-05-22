@@ -16028,10 +16028,10 @@ const Fa = class Fa {
         return this.htmlEscape(r).trim()
     }
     static sanitizeName(e) {
-        return e
+        return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
     }
     static sanitizeInput(e) {
-        return e
+        return e = e.replace("…", "..."), e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
     }
     static sanitizeEmoji(e) {
         return e.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -16336,7 +16336,7 @@ var nE = {
                 };
 
             function m(N) {
-                if (typeof N != "string" && (N = String(N)), /[^a-z0-9\-#$%&'*+.^_`|~!]/i.test(N) || N === "") throw new TypeError('Invalid character in header field name: "' + N + '"');
+                if (typeof N != "string" && (N = String(N)), /[^a-z-а-ё-я0-9\-#$%&'*+.^_`|~!]/i.test(N) || N === "") throw new TypeError('Invalid character in header field name: "' + N + '"');
                 return N.toLowerCase()
             }
 
@@ -19895,9 +19895,9 @@ var zx = {
                 parse: m
             },
             T = /[\n\r\t]/g,
-            v = /^[A-Za-z][A-Za-z0-9+-.]*:\/\//,
+            v = /^[A-Z-а-ё-я-a-z-а-ё-я][A-Z-А-Ё-Яa-zа-ё-я0-9+-.]*:\/\//,
             S = /^([a-z][a-z0-9.+-]*:)?(\/\/)?([\\/]+)?([\S\s]*)/i,
-            x = /^[a-zA-Z]:/,
+            x = /^[a-z-а-ё-яA-Z-А-Ё-Я]:/,
             b = /^[\x00-\x20\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]+/;
 
         function R(k) {
@@ -23776,7 +23776,7 @@ class cE {
         return e.replace("…", "...").replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF\u2019]/gi, "")
     }
     static username(e) {
-        return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
+        return e.replace(/[^A-Z-А-Ё-Я0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
     }
     static emoji(e) {
         return e.replace(/(\u00A9|\u00AE|[\u2000-\u2017]|[\u2020-\u3300]|\uD83C[\uD000-\uDFFF]|\uD83D[\uD000-\uDFFF]|\uD83E[\uD000-\uDFFF])/, "")
@@ -25097,12 +25097,12 @@ rc.exports;
             EC = "\\u20d0-\\u20ff",
             og = dC + hC + EC,
             lg = "\\u2700-\\u27bf",
-            ug = "a-z\\xdf-\\xf6\\xf8-\\xff",
+            ug = "a-z-а-ё-я\\xdf-\\xf6\\xf8-\\xff",
             mC = "\\xac\\xb1\\xd7\\xf7",
             gC = "\\x00-\\x2f\\x3a-\\x40\\x5b-\\x60\\x7b-\\xbf",
             _C = "\\u2000-\\u206f",
             TC = " \\t\\x0b\\f\\xa0\\ufeff\\n\\r\\u2028\\u2029\\u1680\\u180e\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\\u202f\\u205f\\u3000",
-            fg = "A-Z\\xc0-\\xd6\\xd8-\\xde",
+            fg = "A-Z-А-Ё-Я\\xc0-\\xd6\\xd8-\\xde",
             cg = "\\ufe0e\\ufe0f",
             pg = mC + gC + _C + TC,
             fp = "['’]",
@@ -25127,8 +25127,8 @@ rc.exports;
             bg = bC + "?",
             Rg = "[" + cg + "]?",
             SC = "(?:" + _g + "(?:" + [gg, pp, dp].join("|") + ")" + Rg + bg + ")*",
-            yC = "\\d*(?:1st|2nd|3rd|(?![123])\\dth)(?=\\b|[A-Z_])",
-            AC = "\\d*(?:1ST|2ND|3RD|(?![123])\\dTH)(?=\\b|[a-z_])",
+            yC = "\\d*(?:1st|2nd|3rd|(?![123])\\dth)(?=\\b|[A-Z-А-Ё-Я_])",
+            AC = "\\d*(?:1ST|2ND|3RD|(?![123])\\dTH)(?=\\b|[a-z-а-ё-я_])",
             Sg = Rg + bg + SC,
             LC = "(?:" + [xC, pp, dp].join("|") + ")" + Sg,
             CC = "(?:" + [gg + iu + "?", iu, pp, dp, vC].join("|") + ")",
@@ -25137,7 +25137,7 @@ rc.exports;
             hp = RegExp(cp + "(?=" + cp + ")|" + CC + Sg, "g"),
             IC = RegExp([ha + "?" + Eg + "+" + vg + "(?=" + [dg, ha, "$"].join("|") + ")", RC + "+" + xg + "(?=" + [dg, ha + Tg, "$"].join("|") + ")", ha + "?" + Tg + "+" + vg, ha + "+" + xg, AC, yC, hg, LC].join("|"), "g"),
             NC = RegExp("[" + _g + nu + og + cg + "]"),
-            PC = /[a-z][A-Z]|[A-Z]{2}[a-z]|[0-9][a-zA-Z]|[a-zA-Z][0-9]|[^a-zA-Z0-9 ]/,
+            PC = /[a-z-а-ё-я][A-Z-А-Ё-Я]|[A-Z-А-Ё-Я]{2}[a-z-а-ё-я]|[0-9][a-zа-ё-яA-ZА-Ё-Я]|[a-zа-я-ёA-Z-А-Ё-Я][0-9]|[^a-z-а-ё-яA-Z-А-Ё-Я0-9 ]/,
             UC = ["Array", "Buffer", "DataView", "Date", "Error", "Float32Array", "Float64Array", "Function", "Int8Array", "Int16Array", "Int32Array", "Map", "Math", "Object", "Promise", "RegExp", "Set", "String", "Symbol", "TypeError", "Uint8Array", "Uint8ClampedArray", "Uint16Array", "Uint32Array", "WeakMap", "_", "clearTimeout", "isFinite", "parseInt", "setTimeout"],
             BC = -1,
             Vt = {};
@@ -30606,7 +30606,7 @@ var Xi = Um,
                 return new Xi.Token(Xi.Token.Type.startTag, r, n, e[0])
             }
             return new Xi.Token(Xi.Token.Type.endTag, e[1].substr(1, e[1].length - 1))
-        }, t.nameChars = "[a-zA-Z0-9\\.\\-_:;/]", t.valueChars = "[a-zA-Z0-9\\.\\-_:;#/\\s]", t
+        }, t.nameChars = "[a-z-а-ё-яA-Z-А-Ё-Я0-9\\.\\-_:;/]", t.valueChars = "[a-z-а-ё-яA-Z-А-Ё-Я0-9\\.\\-_:;#/\\s]", t
     }();
 ep.Tokenizer = iQ;
 (function(t) {
