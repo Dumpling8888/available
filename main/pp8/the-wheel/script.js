@@ -27889,16 +27889,16 @@ ${e}`
             PLACEHOLDER: "Высказать предположение"
         },
         Gce = {
-            BANNER: "Двойники",
-            CORRECT: "Совпадение",
+            BANNER: "Сопоставления",
+            CORRECT: "Угадал!",
             FROZEN: "skill issue"
         },
         jce = {
-            BANNER: "Перечисление"
+            BANNER: "Не просчитайся"
         },
         Wce = {
             PLACE: "Вставь свои сектора",
-            SUBMIT: "Так, теперь нажми \"Подтвердить\"",
+            SUBMIT: "Так, теперь нажми \"SUBMIT\"",
             THANKS: "Молодец"
         },
         Vce = {
@@ -27906,15 +27906,15 @@ ${e}`
             PLACEHOLDER: "Задай же Коле свой вопрос"
         },
         Kce = {
-            BANNER: "ЭТО [small]ИЛИ[/small] ЭТО",
-            CORRECT: "Угдала!",
+            BANNER: "То да сё",
+            CORRECT: "Угадал!",
             FROZEN: "skill issue"
         },
         qce = {
-            ANSWER_BANNER: "ТЫ ПОБЕДИЛ!",
-            MAIN_BANNER: "СВАЙПНИ ВНИЗ",
+            ANSWER_BANNER: "ГООООЛ!",
+            MAIN_BANNER: "КРУТИ!",
             RAINBOW_BANNER: "Радужный колян",
-            WIN_BANNER: "СВАЙПНИ ВНИЗ"
+            WIN_BANNER: "КРУТИ!"
         },
         Hce = {
             OBJECTIVE_BANNER: "Не забудь писать ответы",
@@ -27942,7 +27942,7 @@ ${e}`
             POINTS_FOR: "Очки для {for}.",
             RESERVED: "зарезервировано для {for}.",
             WINNER: "Сектор победителя для {for}.",
-            KEEP_GOING: "Продолжай в том же духи",
+            KEEP_GOING: "Продолжай в том же духе",
             SPIN_POWER: "{power} процентный сектор силы",
             SPIN: "Свайпни вниз, чтобы крутить колю",
             SLICE_COUNT: "У тебя 0 секторов. Сочувствую | У тебя только 1 сектор | У тебя {count} секторов",
