@@ -27913,7 +27913,7 @@ ${e}`
         qce = {
             ANSWER_BANNER: "ГООООЛ!",
             MAIN_BANNER: "КРУТИ!",
-            RAINBOW_BANNER: "Радужный колян",
+            RAINBOW_BANNER: "Радужный Коля",
             WIN_BANNER: "КРУТИ!"
         },
         Hce = {
